@@ -1,0 +1,165 @@
+2021-10-17 17:38:45,139 INFO    MainThread:77114 [internal.py:wandb_internal():86] W&B internal server running at pid: 77114, started at: 2021-10-17 17:38:45.138928
+2021-10-17 17:38:45,142 DEBUG   HandlerThread:77114 [handler.py:handle_request():126] handle_request: check_version
+2021-10-17 17:38:45,142 INFO    WriterThread:77114 [datastore.py:open_for_write():77] open: /Users/pluto7/Documents/mlops/nd0821-c2-build-model-workflow-exercises/lesson-1-machine-learning-pipelines/exercises/exercise_1/starter/wandb/run-20211017_173842-i5j5yffi/run-i5j5yffi.wandb
+2021-10-17 17:38:45,145 DEBUG   SenderThread:77114 [sender.py:send():185] send: header
+2021-10-17 17:38:45,145 DEBUG   SenderThread:77114 [sender.py:send_request():199] send_request: check_version
+2021-10-17 17:38:45,420 DEBUG   SenderThread:77114 [sender.py:send():185] send: run
+2021-10-17 17:38:45,916 INFO    SenderThread:77114 [dir_watcher.py:__init__():169] watching files in: /Users/pluto7/Documents/mlops/nd0821-c2-build-model-workflow-exercises/lesson-1-machine-learning-pipelines/exercises/exercise_1/starter/wandb/run-20211017_173842-i5j5yffi/files
+2021-10-17 17:38:45,916 INFO    SenderThread:77114 [sender.py:_start_run_threads():746] run started: i5j5yffi with start time 1634472522
+2021-10-17 17:38:45,916 DEBUG   SenderThread:77114 [sender.py:send():185] send: summary
+2021-10-17 17:38:45,917 DEBUG   HandlerThread:77114 [handler.py:handle_request():126] handle_request: run_start
+2021-10-17 17:38:45,917 INFO    SenderThread:77114 [sender.py:_save_file():879] saving file wandb-summary.json with policy end
+2021-10-17 17:38:45,920 DEBUG   HandlerThread:77114 [meta.py:__init__():40] meta init
+2021-10-17 17:38:45,921 DEBUG   HandlerThread:77114 [meta.py:__init__():54] meta init done
+2021-10-17 17:38:45,921 DEBUG   HandlerThread:77114 [meta.py:probe():211] probe
+2021-10-17 17:38:45,923 DEBUG   HandlerThread:77114 [meta.py:_setup_git():201] setup git
+2021-10-17 17:38:45,972 DEBUG   HandlerThread:77114 [meta.py:_setup_git():208] setup git done
+2021-10-17 17:38:45,972 DEBUG   HandlerThread:77114 [meta.py:_save_pip():58] save pip
+2021-10-17 17:38:45,973 DEBUG   HandlerThread:77114 [meta.py:_save_pip():72] save pip done
+2021-10-17 17:38:45,974 DEBUG   HandlerThread:77114 [meta.py:_save_conda():79] save conda
+2021-10-17 17:38:46,921 INFO    Thread-8  :77114 [dir_watcher.py:_on_file_created():217] file/dir created: /Users/pluto7/Documents/mlops/nd0821-c2-build-model-workflow-exercises/lesson-1-machine-learning-pipelines/exercises/exercise_1/starter/wandb/run-20211017_173842-i5j5yffi/files/conda-environment.yaml
+2021-10-17 17:38:46,922 INFO    Thread-8  :77114 [dir_watcher.py:_on_file_created():217] file/dir created: /Users/pluto7/Documents/mlops/nd0821-c2-build-model-workflow-exercises/lesson-1-machine-learning-pipelines/exercises/exercise_1/starter/wandb/run-20211017_173842-i5j5yffi/files/wandb-summary.json
+2021-10-17 17:38:46,922 INFO    Thread-8  :77114 [dir_watcher.py:_on_file_created():217] file/dir created: /Users/pluto7/Documents/mlops/nd0821-c2-build-model-workflow-exercises/lesson-1-machine-learning-pipelines/exercises/exercise_1/starter/wandb/run-20211017_173842-i5j5yffi/files/requirements.txt
+2021-10-17 17:38:49,577 DEBUG   HandlerThread:77114 [meta.py:_save_conda():87] save conda done
+2021-10-17 17:38:49,577 DEBUG   HandlerThread:77114 [meta.py:probe():249] probe done
+2021-10-17 17:38:49,587 DEBUG   SenderThread:77114 [sender.py:send():185] send: files
+2021-10-17 17:38:49,587 INFO    SenderThread:77114 [sender.py:_save_file():879] saving file wandb-metadata.json with policy now
+2021-10-17 17:38:49,595 DEBUG   HandlerThread:77114 [handler.py:handle_request():126] handle_request: stop_status
+2021-10-17 17:38:49,597 DEBUG   SenderThread:77114 [sender.py:send_request():199] send_request: stop_status
+2021-10-17 17:38:49,924 INFO    Thread-8  :77114 [dir_watcher.py:_on_file_modified():230] file/dir modified: /Users/pluto7/Documents/mlops/nd0821-c2-build-model-workflow-exercises/lesson-1-machine-learning-pipelines/exercises/exercise_1/starter/wandb/run-20211017_173842-i5j5yffi/files/conda-environment.yaml
+2021-10-17 17:38:49,925 INFO    Thread-8  :77114 [dir_watcher.py:_on_file_created():217] file/dir created: /Users/pluto7/Documents/mlops/nd0821-c2-build-model-workflow-exercises/lesson-1-machine-learning-pipelines/exercises/exercise_1/starter/wandb/run-20211017_173842-i5j5yffi/files/wandb-metadata.json
+2021-10-17 17:38:49,925 INFO    Thread-8  :77114 [dir_watcher.py:_on_file_created():217] file/dir created: /Users/pluto7/Documents/mlops/nd0821-c2-build-model-workflow-exercises/lesson-1-machine-learning-pipelines/exercises/exercise_1/starter/wandb/run-20211017_173842-i5j5yffi/files/output.log
+2021-10-17 17:38:50,021 DEBUG   HandlerThread:77114 [handler.py:handle_request():126] handle_request: log_artifact
+2021-10-17 17:38:50,021 DEBUG   SenderThread:77114 [sender.py:send_request():199] send_request: log_artifact
+2021-10-17 17:38:50,784 INFO    Thread-11 :77114 [upload_job.py:push():137] Uploaded file /var/folders/0k/3c8pyt651sx5678j9jhbr5000000gn/T/tmpbqgyzyx2wandb/sh4s2p53-wandb-metadata.json
+2021-10-17 17:38:52,120 DEBUG   HandlerThread:77114 [handler.py:handle_request():126] handle_request: poll_exit
+2021-10-17 17:38:53,015 INFO    Thread-13 :77114 [upload_job.py:push():95] Uploaded file /Users/pluto7/.cache/wandb/artifacts/obj/md5/47/2dc34177f789252d8875f66e1993f6
+2021-10-17 17:38:54,684 INFO    SenderThread:77114 [sender.py:send_request_log_artifact():907] logged artifact zen_of_python - {'id': 'QXJ0aWZhY3Q6MzE0MzI3NzI=', 'digest': '5ad93a186b7e024f34594b89b917c856', 'state': 'PENDING', 'aliases': [], 'artifactSequence': {'id': 'QXJ0aWZhY3RDb2xsZWN0aW9uOjUyMjIxOTY=', 'latestArtifact': {'id': 'QXJ0aWZhY3Q6MzE0MzIwNzc=', 'versionIndex': 0}}, 'version': 'latest'}
+2021-10-17 17:38:54,684 DEBUG   SenderThread:77114 [sender.py:send():185] send: telemetry
+2021-10-17 17:38:54,684 DEBUG   SenderThread:77114 [sender.py:send():185] send: exit
+2021-10-17 17:38:54,684 INFO    SenderThread:77114 [sender.py:send_exit():294] handling exit code: 0
+2021-10-17 17:38:54,685 INFO    SenderThread:77114 [sender.py:send_exit():296] handling runtime: 6
+2021-10-17 17:38:54,687 INFO    SenderThread:77114 [sender.py:_save_file():879] saving file wandb-summary.json with policy end
+2021-10-17 17:38:54,688 INFO    SenderThread:77114 [sender.py:send_exit():306] send defer
+2021-10-17 17:38:54,689 DEBUG   SenderThread:77114 [sender.py:send_request():199] send_request: poll_exit
+2021-10-17 17:38:54,689 DEBUG   HandlerThread:77114 [handler.py:handle_request():126] handle_request: defer
+2021-10-17 17:38:54,691 INFO    HandlerThread:77114 [handler.py:handle_request_defer():143] handle defer: 0
+2021-10-17 17:38:54,692 DEBUG   SenderThread:77114 [sender.py:send_request():199] send_request: defer
+2021-10-17 17:38:54,692 INFO    SenderThread:77114 [sender.py:send_request_defer():315] handle sender defer: 0
+2021-10-17 17:38:54,692 INFO    SenderThread:77114 [sender.py:transition_state():319] send defer: 1
+2021-10-17 17:38:54,694 DEBUG   HandlerThread:77114 [handler.py:handle_request():126] handle_request: defer
+2021-10-17 17:38:54,694 INFO    HandlerThread:77114 [handler.py:handle_request_defer():143] handle defer: 1
+2021-10-17 17:38:54,799 DEBUG   HandlerThread:77114 [handler.py:handle_request():126] handle_request: poll_exit
+2021-10-17 17:38:54,800 DEBUG   SenderThread:77114 [sender.py:send_request():199] send_request: defer
+2021-10-17 17:38:54,801 INFO    SenderThread:77114 [sender.py:send_request_defer():315] handle sender defer: 1
+2021-10-17 17:38:54,801 INFO    SenderThread:77114 [sender.py:transition_state():319] send defer: 2
+2021-10-17 17:38:54,801 DEBUG   SenderThread:77114 [sender.py:send_request():199] send_request: poll_exit
+2021-10-17 17:38:54,801 DEBUG   SenderThread:77114 [sender.py:send():185] send: stats
+2021-10-17 17:38:54,802 DEBUG   HandlerThread:77114 [handler.py:handle_request():126] handle_request: defer
+2021-10-17 17:38:54,802 INFO    HandlerThread:77114 [handler.py:handle_request_defer():143] handle defer: 2
+2021-10-17 17:38:54,803 DEBUG   SenderThread:77114 [sender.py:send_request():199] send_request: defer
+2021-10-17 17:38:54,803 INFO    SenderThread:77114 [sender.py:send_request_defer():315] handle sender defer: 2
+2021-10-17 17:38:54,803 INFO    SenderThread:77114 [sender.py:transition_state():319] send defer: 3
+2021-10-17 17:38:54,804 DEBUG   HandlerThread:77114 [handler.py:handle_request():126] handle_request: defer
+2021-10-17 17:38:54,804 INFO    HandlerThread:77114 [handler.py:handle_request_defer():143] handle defer: 3
+2021-10-17 17:38:54,805 DEBUG   SenderThread:77114 [sender.py:send():185] send: summary
+2021-10-17 17:38:54,808 INFO    SenderThread:77114 [sender.py:_save_file():879] saving file wandb-summary.json with policy end
+2021-10-17 17:38:54,809 DEBUG   SenderThread:77114 [sender.py:send_request():199] send_request: defer
+2021-10-17 17:38:54,810 INFO    SenderThread:77114 [sender.py:send_request_defer():315] handle sender defer: 3
+2021-10-17 17:38:54,810 INFO    SenderThread:77114 [sender.py:transition_state():319] send defer: 4
+2021-10-17 17:38:54,821 DEBUG   HandlerThread:77114 [handler.py:handle_request():126] handle_request: defer
+2021-10-17 17:38:54,821 INFO    HandlerThread:77114 [handler.py:handle_request_defer():143] handle defer: 4
+2021-10-17 17:38:54,822 DEBUG   SenderThread:77114 [sender.py:send_request():199] send_request: defer
+2021-10-17 17:38:54,822 INFO    SenderThread:77114 [sender.py:send_request_defer():315] handle sender defer: 4
+2021-10-17 17:38:54,906 DEBUG   HandlerThread:77114 [handler.py:handle_request():126] handle_request: poll_exit
+2021-10-17 17:38:54,947 INFO    Thread-8  :77114 [dir_watcher.py:_on_file_modified():230] file/dir modified: /Users/pluto7/Documents/mlops/nd0821-c2-build-model-workflow-exercises/lesson-1-machine-learning-pipelines/exercises/exercise_1/starter/wandb/run-20211017_173842-i5j5yffi/files/wandb-summary.json
+2021-10-17 17:38:55,261 INFO    SenderThread:77114 [sender.py:transition_state():319] send defer: 5
+2021-10-17 17:38:55,261 DEBUG   SenderThread:77114 [sender.py:send_request():199] send_request: poll_exit
+2021-10-17 17:38:55,262 DEBUG   HandlerThread:77114 [handler.py:handle_request():126] handle_request: defer
+2021-10-17 17:38:55,262 INFO    HandlerThread:77114 [handler.py:handle_request_defer():143] handle defer: 5
+2021-10-17 17:38:55,262 DEBUG   SenderThread:77114 [sender.py:send_request():199] send_request: defer
+2021-10-17 17:38:55,262 INFO    SenderThread:77114 [sender.py:send_request_defer():315] handle sender defer: 5
+2021-10-17 17:38:55,263 INFO    SenderThread:77114 [dir_watcher.py:finish():283] shutting down directory watcher
+2021-10-17 17:38:55,368 DEBUG   HandlerThread:77114 [handler.py:handle_request():126] handle_request: poll_exit
+2021-10-17 17:38:55,950 INFO    SenderThread:77114 [dir_watcher.py:_on_file_modified():230] file/dir modified: /Users/pluto7/Documents/mlops/nd0821-c2-build-model-workflow-exercises/lesson-1-machine-learning-pipelines/exercises/exercise_1/starter/wandb/run-20211017_173842-i5j5yffi/files/config.yaml
+2021-10-17 17:38:55,951 INFO    SenderThread:77114 [dir_watcher.py:finish():313] scan: /Users/pluto7/Documents/mlops/nd0821-c2-build-model-workflow-exercises/lesson-1-machine-learning-pipelines/exercises/exercise_1/starter/wandb/run-20211017_173842-i5j5yffi/files
+2021-10-17 17:38:55,951 INFO    SenderThread:77114 [dir_watcher.py:finish():327] scan save: /Users/pluto7/Documents/mlops/nd0821-c2-build-model-workflow-exercises/lesson-1-machine-learning-pipelines/exercises/exercise_1/starter/wandb/run-20211017_173842-i5j5yffi/files/requirements.txt requirements.txt
+2021-10-17 17:38:55,951 INFO    SenderThread:77114 [dir_watcher.py:finish():327] scan save: /Users/pluto7/Documents/mlops/nd0821-c2-build-model-workflow-exercises/lesson-1-machine-learning-pipelines/exercises/exercise_1/starter/wandb/run-20211017_173842-i5j5yffi/files/output.log output.log
+2021-10-17 17:38:55,952 INFO    SenderThread:77114 [dir_watcher.py:finish():327] scan save: /Users/pluto7/Documents/mlops/nd0821-c2-build-model-workflow-exercises/lesson-1-machine-learning-pipelines/exercises/exercise_1/starter/wandb/run-20211017_173842-i5j5yffi/files/config.yaml config.yaml
+2021-10-17 17:38:55,958 INFO    SenderThread:77114 [dir_watcher.py:finish():327] scan save: /Users/pluto7/Documents/mlops/nd0821-c2-build-model-workflow-exercises/lesson-1-machine-learning-pipelines/exercises/exercise_1/starter/wandb/run-20211017_173842-i5j5yffi/files/wandb-summary.json wandb-summary.json
+2021-10-17 17:38:55,963 INFO    SenderThread:77114 [dir_watcher.py:finish():327] scan save: /Users/pluto7/Documents/mlops/nd0821-c2-build-model-workflow-exercises/lesson-1-machine-learning-pipelines/exercises/exercise_1/starter/wandb/run-20211017_173842-i5j5yffi/files/conda-environment.yaml conda-environment.yaml
+2021-10-17 17:38:55,968 INFO    SenderThread:77114 [dir_watcher.py:finish():327] scan save: /Users/pluto7/Documents/mlops/nd0821-c2-build-model-workflow-exercises/lesson-1-machine-learning-pipelines/exercises/exercise_1/starter/wandb/run-20211017_173842-i5j5yffi/files/wandb-metadata.json wandb-metadata.json
+2021-10-17 17:38:55,968 INFO    SenderThread:77114 [sender.py:transition_state():319] send defer: 6
+2021-10-17 17:38:55,969 DEBUG   SenderThread:77114 [sender.py:send_request():199] send_request: poll_exit
+2021-10-17 17:38:55,973 DEBUG   HandlerThread:77114 [handler.py:handle_request():126] handle_request: defer
+2021-10-17 17:38:55,973 INFO    HandlerThread:77114 [handler.py:handle_request_defer():143] handle defer: 6
+2021-10-17 17:38:55,975 DEBUG   SenderThread:77114 [sender.py:send_request():199] send_request: defer
+2021-10-17 17:38:55,976 INFO    SenderThread:77114 [sender.py:send_request_defer():315] handle sender defer: 6
+2021-10-17 17:38:55,977 INFO    SenderThread:77114 [file_pusher.py:finish():177] shutting down file pusher
+2021-10-17 17:38:56,078 DEBUG   HandlerThread:77114 [handler.py:handle_request():126] handle_request: poll_exit
+2021-10-17 17:38:56,078 DEBUG   SenderThread:77114 [sender.py:send_request():199] send_request: poll_exit
+2021-10-17 17:38:56,184 DEBUG   HandlerThread:77114 [handler.py:handle_request():126] handle_request: poll_exit
+2021-10-17 17:38:56,184 DEBUG   SenderThread:77114 [sender.py:send_request():199] send_request: poll_exit
+2021-10-17 17:38:56,291 DEBUG   HandlerThread:77114 [handler.py:handle_request():126] handle_request: poll_exit
+2021-10-17 17:38:56,292 DEBUG   SenderThread:77114 [sender.py:send_request():199] send_request: poll_exit
+2021-10-17 17:38:56,394 DEBUG   HandlerThread:77114 [handler.py:handle_request():126] handle_request: poll_exit
+2021-10-17 17:38:56,399 DEBUG   SenderThread:77114 [sender.py:send_request():199] send_request: poll_exit
+2021-10-17 17:38:56,508 DEBUG   HandlerThread:77114 [handler.py:handle_request():126] handle_request: poll_exit
+2021-10-17 17:38:56,509 DEBUG   SenderThread:77114 [sender.py:send_request():199] send_request: poll_exit
+2021-10-17 17:38:56,621 DEBUG   HandlerThread:77114 [handler.py:handle_request():126] handle_request: poll_exit
+2021-10-17 17:38:56,621 DEBUG   SenderThread:77114 [sender.py:send_request():199] send_request: poll_exit
+2021-10-17 17:38:56,726 DEBUG   HandlerThread:77114 [handler.py:handle_request():126] handle_request: poll_exit
+2021-10-17 17:38:56,726 DEBUG   SenderThread:77114 [sender.py:send_request():199] send_request: poll_exit
+2021-10-17 17:38:56,834 DEBUG   HandlerThread:77114 [handler.py:handle_request():126] handle_request: poll_exit
+2021-10-17 17:38:56,834 DEBUG   SenderThread:77114 [sender.py:send_request():199] send_request: poll_exit
+2021-10-17 17:38:56,941 DEBUG   HandlerThread:77114 [handler.py:handle_request():126] handle_request: poll_exit
+2021-10-17 17:38:56,942 DEBUG   SenderThread:77114 [sender.py:send_request():199] send_request: poll_exit
+2021-10-17 17:38:57,049 DEBUG   HandlerThread:77114 [handler.py:handle_request():126] handle_request: poll_exit
+2021-10-17 17:38:57,049 DEBUG   SenderThread:77114 [sender.py:send_request():199] send_request: poll_exit
+2021-10-17 17:38:57,119 INFO    Thread-15 :77114 [upload_job.py:push():137] Uploaded file /Users/pluto7/Documents/mlops/nd0821-c2-build-model-workflow-exercises/lesson-1-machine-learning-pipelines/exercises/exercise_1/starter/wandb/run-20211017_173842-i5j5yffi/files/config.yaml
+2021-10-17 17:38:57,152 DEBUG   HandlerThread:77114 [handler.py:handle_request():126] handle_request: poll_exit
+2021-10-17 17:38:57,152 DEBUG   SenderThread:77114 [sender.py:send_request():199] send_request: poll_exit
+2021-10-17 17:38:57,185 INFO    Thread-16 :77114 [upload_job.py:push():137] Uploaded file /Users/pluto7/Documents/mlops/nd0821-c2-build-model-workflow-exercises/lesson-1-machine-learning-pipelines/exercises/exercise_1/starter/wandb/run-20211017_173842-i5j5yffi/files/wandb-summary.json
+2021-10-17 17:38:57,189 INFO    Thread-14 :77114 [upload_job.py:push():137] Uploaded file /Users/pluto7/Documents/mlops/nd0821-c2-build-model-workflow-exercises/lesson-1-machine-learning-pipelines/exercises/exercise_1/starter/wandb/run-20211017_173842-i5j5yffi/files/requirements.txt
+2021-10-17 17:38:57,257 DEBUG   HandlerThread:77114 [handler.py:handle_request():126] handle_request: poll_exit
+2021-10-17 17:38:57,258 DEBUG   SenderThread:77114 [sender.py:send_request():199] send_request: poll_exit
+2021-10-17 17:38:57,362 DEBUG   HandlerThread:77114 [handler.py:handle_request():126] handle_request: poll_exit
+2021-10-17 17:38:57,363 DEBUG   SenderThread:77114 [sender.py:send_request():199] send_request: poll_exit
+2021-10-17 17:38:57,465 DEBUG   HandlerThread:77114 [handler.py:handle_request():126] handle_request: poll_exit
+2021-10-17 17:38:57,465 DEBUG   SenderThread:77114 [sender.py:send_request():199] send_request: poll_exit
+2021-10-17 17:38:57,573 INFO    Thread-17 :77114 [upload_job.py:push():137] Uploaded file /Users/pluto7/Documents/mlops/nd0821-c2-build-model-workflow-exercises/lesson-1-machine-learning-pipelines/exercises/exercise_1/starter/wandb/run-20211017_173842-i5j5yffi/files/conda-environment.yaml
+2021-10-17 17:38:57,573 DEBUG   HandlerThread:77114 [handler.py:handle_request():126] handle_request: poll_exit
+2021-10-17 17:38:57,574 DEBUG   SenderThread:77114 [sender.py:send_request():199] send_request: poll_exit
+2021-10-17 17:38:57,682 DEBUG   HandlerThread:77114 [handler.py:handle_request():126] handle_request: poll_exit
+2021-10-17 17:38:57,682 DEBUG   SenderThread:77114 [sender.py:send_request():199] send_request: poll_exit
+2021-10-17 17:38:57,779 INFO    Thread-7  :77114 [sender.py:transition_state():319] send defer: 7
+2021-10-17 17:38:57,779 DEBUG   HandlerThread:77114 [handler.py:handle_request():126] handle_request: defer
+2021-10-17 17:38:57,780 INFO    HandlerThread:77114 [handler.py:handle_request_defer():143] handle defer: 7
+2021-10-17 17:38:57,780 DEBUG   SenderThread:77114 [sender.py:send_request():199] send_request: defer
+2021-10-17 17:38:57,780 INFO    SenderThread:77114 [sender.py:send_request_defer():315] handle sender defer: 7
+2021-10-17 17:38:57,785 DEBUG   HandlerThread:77114 [handler.py:handle_request():126] handle_request: poll_exit
+2021-10-17 17:38:58,110 INFO    SenderThread:77114 [sender.py:transition_state():319] send defer: 8
+2021-10-17 17:38:58,110 DEBUG   SenderThread:77114 [sender.py:send_request():199] send_request: poll_exit
+2021-10-17 17:38:58,111 DEBUG   HandlerThread:77114 [handler.py:handle_request():126] handle_request: defer
+2021-10-17 17:38:58,112 INFO    HandlerThread:77114 [handler.py:handle_request_defer():143] handle defer: 8
+2021-10-17 17:38:58,112 DEBUG   SenderThread:77114 [sender.py:send_request():199] send_request: defer
+2021-10-17 17:38:58,112 INFO    SenderThread:77114 [sender.py:send_request_defer():315] handle sender defer: 8
+2021-10-17 17:38:58,112 INFO    SenderThread:77114 [sender.py:transition_state():319] send defer: 9
+2021-10-17 17:38:58,114 DEBUG   SenderThread:77114 [sender.py:send():185] send: final
+2021-10-17 17:38:58,114 DEBUG   SenderThread:77114 [sender.py:send():185] send: footer
+2021-10-17 17:38:58,115 DEBUG   HandlerThread:77114 [handler.py:handle_request():126] handle_request: defer
+2021-10-17 17:38:58,115 INFO    HandlerThread:77114 [handler.py:handle_request_defer():143] handle defer: 9
+2021-10-17 17:38:58,115 DEBUG   SenderThread:77114 [sender.py:send_request():199] send_request: defer
+2021-10-17 17:38:58,116 INFO    SenderThread:77114 [sender.py:send_request_defer():315] handle sender defer: 9
+2021-10-17 17:38:58,218 DEBUG   HandlerThread:77114 [handler.py:handle_request():126] handle_request: poll_exit
+2021-10-17 17:38:58,218 DEBUG   SenderThread:77114 [sender.py:send_request():199] send_request: poll_exit
+2021-10-17 17:38:58,218 INFO    SenderThread:77114 [file_pusher.py:join():182] waiting for file pusher
+2021-10-17 17:38:58,630 DEBUG   HandlerThread:77114 [handler.py:handle_request():126] handle_request: get_summary
+2021-10-17 17:38:58,631 DEBUG   HandlerThread:77114 [handler.py:handle_request():126] handle_request: sampled_history
+2021-10-17 17:38:58,633 DEBUG   HandlerThread:77114 [handler.py:handle_request():126] handle_request: shutdown
+2021-10-17 17:38:58,633 INFO    HandlerThread:77114 [handler.py:finish():683] shutting down handler
+2021-10-17 17:38:59,120 INFO    WriterThread:77114 [datastore.py:close():281] close: /Users/pluto7/Documents/mlops/nd0821-c2-build-model-workflow-exercises/lesson-1-machine-learning-pipelines/exercises/exercise_1/starter/wandb/run-20211017_173842-i5j5yffi/run-i5j5yffi.wandb
+2021-10-17 17:38:59,633 INFO    SenderThread:77114 [sender.py:finish():986] shutting down sender
+2021-10-17 17:38:59,633 INFO    SenderThread:77114 [file_pusher.py:finish():177] shutting down file pusher
+2021-10-17 17:38:59,633 INFO    SenderThread:77114 [file_pusher.py:join():182] waiting for file pusher
+2021-10-17 17:38:59,634 INFO    MainThread:77114 [internal.py:handle_exit():76] Internal process exited

@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/pluto7/Documents/mlops/nd0821-c2-build-model-workflow-exercises/lesson-1-machine-learning-pipelines/exercises/exercise_2/starter/mlruns/0/1f9d1dfb94834ef8b201159bb34200cc/artifacts
+end_time: 1634492574035
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+name: ''
+run_id: 1f9d1dfb94834ef8b201159bb34200cc
+run_uuid: 1f9d1dfb94834ef8b201159bb34200cc
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1634492364709
+status: 3
+tags: []
+user_id: pluto7

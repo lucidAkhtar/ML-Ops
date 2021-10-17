@@ -1,0 +1,7 @@
+2021-10-17 17:51:29,741 Getting artifact
+Traceback (most recent call last):
+  File "use_artifact.py", line 42, in <module>
+    go(args)
+  File "use_artifact.py", line 22, in go
+    artifact_path = args.artifact_name.file()
+AttributeError: 'str' object has no attribute 'file'

@@ -1,0 +1,31 @@
+{
+    "os": "macOS-11.4-x86_64-i386-64bit",
+    "python": "3.9.7",
+    "heartbeatAt": "2021-10-19T17:13:36.157145",
+    "startedAt": "2021-10-19T17:13:33.589708",
+    "docker": null,
+    "cpu_count": 4,
+    "cuda": null,
+    "args": [
+        "--file_url",
+        "https://raw.githubusercontent.com/scikit-learn/scikit-learn/4dfdfb4e1bb3719628753a4ece995a1b2fa5312a/sklearn/datasets/data/iris.csv",
+        "--artifact_name",
+        "iris.csv",
+        "--artifact_type",
+        "raw_data",
+        "--artifact_description",
+        "Input data"
+    ],
+    "state": "running",
+    "program": "/Users/pluto7/Documents/mlops/nd0821-c2-build-model-workflow-exercises/lesson-1-machine-learning-pipelines/exercises/exercise_3/starter/download_data/download_data.py",
+    "codePath": "lesson-1-machine-learning-pipelines/exercises/exercise_3/starter/download_data/download_data.py",
+    "git": {
+        "remote": "https://github.com/udacity/nd0821-c2-build-model-workflow-exercises.git",
+        "commit": "d17fd61434715a00a5b29bdde55fd75b04941b54"
+    },
+    "email": null,
+    "root": "/Users/pluto7/Documents/mlops/nd0821-c2-build-model-workflow-exercises",
+    "host": "Akhtars-MacBook-Air.local",
+    "username": "pluto7",
+    "executable": "/Users/pluto7/opt/miniconda3/envs/mlflow-4b67c93d2a95df2e00cbf3c9f644d2e3dada00e0/bin/python"
+}

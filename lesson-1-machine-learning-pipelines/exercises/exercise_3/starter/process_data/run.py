@@ -1,4 +1,13 @@
 #!/usr/bin/env python
+
+# This particular task(here,processing.py) is done by using Command line arguments
+# The data path from a URL or a storage is considered and then the artifact is 
+# created. 
+# Artifact is considered as the Input and Output happening in ML mode building.
+# Then, making some changes in the data and applying T-SNE and saving the artifact
+# as the output of T-SNE TO W&B.
+# adding this artifact name, type and description taking this from the Command line
+# 
 import argparse
 import logging
 import seaborn as sns
@@ -13,6 +22,8 @@ logger = logging.getLogger()
 
 def go(args):
 
+    # Important step 
+    # Runs -> Group/Experiment -> Project (Weights & Biases)
     run = wandb.init(job_type="process_data")
 
     logger.info("Downloading artifact")
@@ -43,6 +54,7 @@ def go(args):
     logger.info("Creating artifact")
 
     iris.to_csv("clean_data.csv")
+    # Where is the data saved here
 
     artifact = wandb.Artifact(
         name=args.artifact_name,

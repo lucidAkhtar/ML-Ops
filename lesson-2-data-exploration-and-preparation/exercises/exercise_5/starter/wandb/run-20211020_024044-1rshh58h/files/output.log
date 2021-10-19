@@ -1,0 +1,16 @@
+
+2021-10-20 02:40:52,248 Reading the latest data from W&B
+Traceback (most recent call last):
+  File "run.py", line 86, in <module>
+    go(args)
+  File "run.py", line 28, in go
+    df = pd.read_parquet(artifact_path)
+  File "/Users/pluto7/opt/miniconda3/envs/udacity/lib/python3.8/site-packages/pandas/io/parquet.py", line 493, in read_parquet
+    impl = get_engine(engine)
+  File "/Users/pluto7/opt/miniconda3/envs/udacity/lib/python3.8/site-packages/pandas/io/parquet.py", line 53, in get_engine
+    raise ImportError(
+ImportError: Unable to find a usable engine; tried using: 'pyarrow', 'fastparquet'.
+A suitable version of pyarrow or fastparquet is required for parquet support.
+Trying to import the above resulted in these errors:
+ - Missing optional dependency 'pyarrow'. pyarrow is required for parquet support. Use pip or conda to install pyarrow.
+ - Missing optional dependency 'fastparquet'. fastparquet is required for parquet support. Use pip or conda to install fastparquet.

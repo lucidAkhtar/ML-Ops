@@ -1,0 +1,178 @@
+2021-10-20 01:04:10,189 INFO    MainThread:94566 [internal.py:wandb_internal():86] W&B internal server running at pid: 94566, started at: 2021-10-20 01:04:10.188615
+2021-10-20 01:04:10,194 DEBUG   SenderThread:94566 [sender.py:send():185] send: header
+2021-10-20 01:04:10,194 INFO    WriterThread:94566 [datastore.py:open_for_write():77] open: /Users/pluto7/Documents/mlops/nd0821-c2-build-model-workflow-exercises/lesson-2-data-exploration-and-preparation/exercises/exercise_4/starter/wandb/run-20211020_010408-227skfa8/run-227skfa8.wandb
+2021-10-20 01:04:10,195 DEBUG   HandlerThread:94566 [handler.py:handle_request():126] handle_request: check_version
+2021-10-20 01:04:10,202 DEBUG   SenderThread:94566 [sender.py:send_request():199] send_request: check_version
+2021-10-20 01:04:10,465 DEBUG   SenderThread:94566 [sender.py:send():185] send: run
+2021-10-20 01:04:12,696 DEBUG   HandlerThread:94566 [handler.py:handle_request():126] handle_request: run_start
+2021-10-20 01:04:12,697 INFO    SenderThread:94566 [dir_watcher.py:__init__():169] watching files in: /Users/pluto7/Documents/mlops/nd0821-c2-build-model-workflow-exercises/lesson-2-data-exploration-and-preparation/exercises/exercise_4/starter/wandb/run-20211020_010408-227skfa8/files
+2021-10-20 01:04:12,701 INFO    SenderThread:94566 [sender.py:_start_run_threads():746] run started: 227skfa8 with start time 1634672048
+2021-10-20 01:04:12,701 DEBUG   SenderThread:94566 [sender.py:send():185] send: summary
+2021-10-20 01:04:12,707 DEBUG   HandlerThread:94566 [meta.py:__init__():40] meta init
+2021-10-20 01:04:12,708 INFO    SenderThread:94566 [sender.py:_save_file():879] saving file wandb-summary.json with policy end
+2021-10-20 01:04:12,708 DEBUG   HandlerThread:94566 [meta.py:__init__():54] meta init done
+2021-10-20 01:04:12,709 DEBUG   HandlerThread:94566 [meta.py:probe():211] probe
+2021-10-20 01:04:12,714 DEBUG   HandlerThread:94566 [meta.py:_setup_git():201] setup git
+2021-10-20 01:04:12,819 DEBUG   HandlerThread:94566 [meta.py:_setup_git():208] setup git done
+2021-10-20 01:04:12,819 DEBUG   HandlerThread:94566 [meta.py:_save_pip():58] save pip
+2021-10-20 01:04:12,821 DEBUG   HandlerThread:94566 [meta.py:_save_pip():72] save pip done
+2021-10-20 01:04:12,821 DEBUG   HandlerThread:94566 [meta.py:_save_conda():79] save conda
+2021-10-20 01:04:13,702 INFO    Thread-8  :94566 [dir_watcher.py:_on_file_created():217] file/dir created: /Users/pluto7/Documents/mlops/nd0821-c2-build-model-workflow-exercises/lesson-2-data-exploration-and-preparation/exercises/exercise_4/starter/wandb/run-20211020_010408-227skfa8/files/conda-environment.yaml
+2021-10-20 01:04:13,703 INFO    Thread-8  :94566 [dir_watcher.py:_on_file_created():217] file/dir created: /Users/pluto7/Documents/mlops/nd0821-c2-build-model-workflow-exercises/lesson-2-data-exploration-and-preparation/exercises/exercise_4/starter/wandb/run-20211020_010408-227skfa8/files/wandb-summary.json
+2021-10-20 01:04:13,704 INFO    Thread-8  :94566 [dir_watcher.py:_on_file_created():217] file/dir created: /Users/pluto7/Documents/mlops/nd0821-c2-build-model-workflow-exercises/lesson-2-data-exploration-and-preparation/exercises/exercise_4/starter/wandb/run-20211020_010408-227skfa8/files/requirements.txt
+2021-10-20 01:04:15,981 DEBUG   HandlerThread:94566 [meta.py:_save_conda():87] save conda done
+2021-10-20 01:04:15,981 DEBUG   HandlerThread:94566 [meta.py:probe():249] probe done
+2021-10-20 01:04:15,991 DEBUG   SenderThread:94566 [sender.py:send():185] send: files
+2021-10-20 01:04:15,991 INFO    SenderThread:94566 [sender.py:_save_file():879] saving file wandb-metadata.json with policy now
+2021-10-20 01:04:15,997 DEBUG   HandlerThread:94566 [handler.py:handle_request():126] handle_request: stop_status
+2021-10-20 01:04:15,998 DEBUG   SenderThread:94566 [sender.py:send_request():199] send_request: stop_status
+2021-10-20 01:04:16,708 INFO    Thread-8  :94566 [dir_watcher.py:_on_file_modified():230] file/dir modified: /Users/pluto7/Documents/mlops/nd0821-c2-build-model-workflow-exercises/lesson-2-data-exploration-and-preparation/exercises/exercise_4/starter/wandb/run-20211020_010408-227skfa8/files/conda-environment.yaml
+2021-10-20 01:04:16,708 INFO    Thread-8  :94566 [dir_watcher.py:_on_file_created():217] file/dir created: /Users/pluto7/Documents/mlops/nd0821-c2-build-model-workflow-exercises/lesson-2-data-exploration-and-preparation/exercises/exercise_4/starter/wandb/run-20211020_010408-227skfa8/files/output.log
+2021-10-20 01:04:16,708 INFO    Thread-8  :94566 [dir_watcher.py:_on_file_created():217] file/dir created: /Users/pluto7/Documents/mlops/nd0821-c2-build-model-workflow-exercises/lesson-2-data-exploration-and-preparation/exercises/exercise_4/starter/wandb/run-20211020_010408-227skfa8/files/wandb-metadata.json
+2021-10-20 01:04:17,234 INFO    Thread-11 :94566 [upload_job.py:push():137] Uploaded file /var/folders/0k/3c8pyt651sx5678j9jhbr5000000gn/T/tmpe6iu0_obwandb/suqv5rtp-wandb-metadata.json
+2021-10-20 01:04:17,879 DEBUG   HandlerThread:94566 [handler.py:handle_request():126] handle_request: log_artifact
+2021-10-20 01:04:17,880 DEBUG   SenderThread:94566 [sender.py:send_request():199] send_request: log_artifact
+2021-10-20 01:04:19,792 INFO    SenderThread:94566 [sender.py:send_request_log_artifact():907] logged artifact genres_mod.parquet - {'id': 'QXJ0aWZhY3Q6MzIxNjM1OTI=', 'digest': 'd07cfe0c8bd86971c9f85bce13c85266', 'state': 'COMMITTED', 'aliases': [{'artifactCollectionName': 'genres_mod.parquet', 'alias': 'latest'}, {'artifactCollectionName': 'genres_mod.parquet', 'alias': 'v0'}], 'artifactSequence': {'id': 'QXJ0aWZhY3RDb2xsZWN0aW9uOjUzNDI5NTI=', 'latestArtifact': {'id': 'QXJ0aWZhY3Q6MzIxNjM1OTI=', 'versionIndex': 0}}, 'version': 'v0'}
+2021-10-20 01:04:20,029 DEBUG   SenderThread:94566 [sender.py:send():185] send: telemetry
+2021-10-20 01:04:20,029 DEBUG   HandlerThread:94566 [handler.py:handle_request():126] handle_request: poll_exit
+2021-10-20 01:04:20,029 DEBUG   SenderThread:94566 [sender.py:send():185] send: exit
+2021-10-20 01:04:20,030 INFO    SenderThread:94566 [sender.py:send_exit():294] handling exit code: 0
+2021-10-20 01:04:20,030 INFO    SenderThread:94566 [sender.py:send_exit():296] handling runtime: 7
+2021-10-20 01:04:20,031 INFO    SenderThread:94566 [sender.py:_save_file():879] saving file wandb-summary.json with policy end
+2021-10-20 01:04:20,031 INFO    SenderThread:94566 [sender.py:send_exit():306] send defer
+2021-10-20 01:04:20,031 DEBUG   SenderThread:94566 [sender.py:send_request():199] send_request: poll_exit
+2021-10-20 01:04:20,032 DEBUG   HandlerThread:94566 [handler.py:handle_request():126] handle_request: defer
+2021-10-20 01:04:20,032 INFO    HandlerThread:94566 [handler.py:handle_request_defer():143] handle defer: 0
+2021-10-20 01:04:20,032 DEBUG   SenderThread:94566 [sender.py:send_request():199] send_request: defer
+2021-10-20 01:04:20,032 INFO    SenderThread:94566 [sender.py:send_request_defer():315] handle sender defer: 0
+2021-10-20 01:04:20,032 INFO    SenderThread:94566 [sender.py:transition_state():319] send defer: 1
+2021-10-20 01:04:20,033 DEBUG   HandlerThread:94566 [handler.py:handle_request():126] handle_request: defer
+2021-10-20 01:04:20,033 INFO    HandlerThread:94566 [handler.py:handle_request_defer():143] handle defer: 1
+2021-10-20 01:04:20,086 DEBUG   SenderThread:94566 [sender.py:send_request():199] send_request: defer
+2021-10-20 01:04:20,087 INFO    SenderThread:94566 [sender.py:send_request_defer():315] handle sender defer: 1
+2021-10-20 01:04:20,087 INFO    SenderThread:94566 [sender.py:transition_state():319] send defer: 2
+2021-10-20 01:04:20,089 DEBUG   SenderThread:94566 [sender.py:send():185] send: stats
+2021-10-20 01:04:20,089 DEBUG   HandlerThread:94566 [handler.py:handle_request():126] handle_request: defer
+2021-10-20 01:04:20,090 INFO    HandlerThread:94566 [handler.py:handle_request_defer():143] handle defer: 2
+2021-10-20 01:04:20,090 DEBUG   SenderThread:94566 [sender.py:send_request():199] send_request: defer
+2021-10-20 01:04:20,090 INFO    SenderThread:94566 [sender.py:send_request_defer():315] handle sender defer: 2
+2021-10-20 01:04:20,090 INFO    SenderThread:94566 [sender.py:transition_state():319] send defer: 3
+2021-10-20 01:04:20,091 DEBUG   HandlerThread:94566 [handler.py:handle_request():126] handle_request: defer
+2021-10-20 01:04:20,091 INFO    HandlerThread:94566 [handler.py:handle_request_defer():143] handle defer: 3
+2021-10-20 01:04:20,091 DEBUG   SenderThread:94566 [sender.py:send():185] send: summary
+2021-10-20 01:04:20,092 INFO    SenderThread:94566 [sender.py:_save_file():879] saving file wandb-summary.json with policy end
+2021-10-20 01:04:20,092 DEBUG   SenderThread:94566 [sender.py:send_request():199] send_request: defer
+2021-10-20 01:04:20,092 INFO    SenderThread:94566 [sender.py:send_request_defer():315] handle sender defer: 3
+2021-10-20 01:04:20,092 INFO    SenderThread:94566 [sender.py:transition_state():319] send defer: 4
+2021-10-20 01:04:20,092 DEBUG   HandlerThread:94566 [handler.py:handle_request():126] handle_request: defer
+2021-10-20 01:04:20,093 INFO    HandlerThread:94566 [handler.py:handle_request_defer():143] handle defer: 4
+2021-10-20 01:04:20,093 DEBUG   SenderThread:94566 [sender.py:send_request():199] send_request: defer
+2021-10-20 01:04:20,093 INFO    SenderThread:94566 [sender.py:send_request_defer():315] handle sender defer: 4
+2021-10-20 01:04:20,135 DEBUG   HandlerThread:94566 [handler.py:handle_request():126] handle_request: poll_exit
+2021-10-20 01:04:20,722 INFO    Thread-8  :94566 [dir_watcher.py:_on_file_modified():230] file/dir modified: /Users/pluto7/Documents/mlops/nd0821-c2-build-model-workflow-exercises/lesson-2-data-exploration-and-preparation/exercises/exercise_4/starter/wandb/run-20211020_010408-227skfa8/files/output.log
+2021-10-20 01:04:20,723 INFO    Thread-8  :94566 [dir_watcher.py:_on_file_modified():230] file/dir modified: /Users/pluto7/Documents/mlops/nd0821-c2-build-model-workflow-exercises/lesson-2-data-exploration-and-preparation/exercises/exercise_4/starter/wandb/run-20211020_010408-227skfa8/files/wandb-summary.json
+2021-10-20 01:04:20,777 INFO    SenderThread:94566 [sender.py:transition_state():319] send defer: 5
+2021-10-20 01:04:20,777 DEBUG   SenderThread:94566 [sender.py:send_request():199] send_request: poll_exit
+2021-10-20 01:04:20,778 DEBUG   HandlerThread:94566 [handler.py:handle_request():126] handle_request: defer
+2021-10-20 01:04:20,778 INFO    HandlerThread:94566 [handler.py:handle_request_defer():143] handle defer: 5
+2021-10-20 01:04:20,779 DEBUG   SenderThread:94566 [sender.py:send_request():199] send_request: defer
+2021-10-20 01:04:20,779 INFO    SenderThread:94566 [sender.py:send_request_defer():315] handle sender defer: 5
+2021-10-20 01:04:20,780 INFO    SenderThread:94566 [dir_watcher.py:finish():283] shutting down directory watcher
+2021-10-20 01:04:20,880 DEBUG   HandlerThread:94566 [handler.py:handle_request():126] handle_request: poll_exit
+2021-10-20 01:04:21,732 INFO    Thread-8  :94566 [dir_watcher.py:_on_file_modified():230] file/dir modified: /Users/pluto7/Documents/mlops/nd0821-c2-build-model-workflow-exercises/lesson-2-data-exploration-and-preparation/exercises/exercise_4/starter/wandb/run-20211020_010408-227skfa8/files/config.yaml
+2021-10-20 01:04:21,735 INFO    SenderThread:94566 [dir_watcher.py:finish():313] scan: /Users/pluto7/Documents/mlops/nd0821-c2-build-model-workflow-exercises/lesson-2-data-exploration-and-preparation/exercises/exercise_4/starter/wandb/run-20211020_010408-227skfa8/files
+2021-10-20 01:04:21,736 INFO    SenderThread:94566 [dir_watcher.py:finish():327] scan save: /Users/pluto7/Documents/mlops/nd0821-c2-build-model-workflow-exercises/lesson-2-data-exploration-and-preparation/exercises/exercise_4/starter/wandb/run-20211020_010408-227skfa8/files/requirements.txt requirements.txt
+2021-10-20 01:04:21,737 INFO    SenderThread:94566 [dir_watcher.py:finish():327] scan save: /Users/pluto7/Documents/mlops/nd0821-c2-build-model-workflow-exercises/lesson-2-data-exploration-and-preparation/exercises/exercise_4/starter/wandb/run-20211020_010408-227skfa8/files/output.log output.log
+2021-10-20 01:04:21,744 INFO    SenderThread:94566 [dir_watcher.py:finish():327] scan save: /Users/pluto7/Documents/mlops/nd0821-c2-build-model-workflow-exercises/lesson-2-data-exploration-and-preparation/exercises/exercise_4/starter/wandb/run-20211020_010408-227skfa8/files/config.yaml config.yaml
+2021-10-20 01:04:21,746 INFO    SenderThread:94566 [dir_watcher.py:finish():327] scan save: /Users/pluto7/Documents/mlops/nd0821-c2-build-model-workflow-exercises/lesson-2-data-exploration-and-preparation/exercises/exercise_4/starter/wandb/run-20211020_010408-227skfa8/files/wandb-summary.json wandb-summary.json
+2021-10-20 01:04:21,747 INFO    SenderThread:94566 [dir_watcher.py:finish():327] scan save: /Users/pluto7/Documents/mlops/nd0821-c2-build-model-workflow-exercises/lesson-2-data-exploration-and-preparation/exercises/exercise_4/starter/wandb/run-20211020_010408-227skfa8/files/conda-environment.yaml conda-environment.yaml
+2021-10-20 01:04:21,747 INFO    SenderThread:94566 [dir_watcher.py:finish():327] scan save: /Users/pluto7/Documents/mlops/nd0821-c2-build-model-workflow-exercises/lesson-2-data-exploration-and-preparation/exercises/exercise_4/starter/wandb/run-20211020_010408-227skfa8/files/wandb-metadata.json wandb-metadata.json
+2021-10-20 01:04:21,748 INFO    SenderThread:94566 [sender.py:transition_state():319] send defer: 6
+2021-10-20 01:04:21,748 DEBUG   SenderThread:94566 [sender.py:send_request():199] send_request: poll_exit
+2021-10-20 01:04:21,758 DEBUG   HandlerThread:94566 [handler.py:handle_request():126] handle_request: defer
+2021-10-20 01:04:21,758 INFO    HandlerThread:94566 [handler.py:handle_request_defer():143] handle defer: 6
+2021-10-20 01:04:21,761 DEBUG   SenderThread:94566 [sender.py:send_request():199] send_request: defer
+2021-10-20 01:04:21,761 INFO    SenderThread:94566 [sender.py:send_request_defer():315] handle sender defer: 6
+2021-10-20 01:04:21,761 INFO    SenderThread:94566 [file_pusher.py:finish():177] shutting down file pusher
+2021-10-20 01:04:21,855 DEBUG   HandlerThread:94566 [handler.py:handle_request():126] handle_request: poll_exit
+2021-10-20 01:04:21,856 DEBUG   SenderThread:94566 [sender.py:send_request():199] send_request: poll_exit
+2021-10-20 01:04:21,959 DEBUG   HandlerThread:94566 [handler.py:handle_request():126] handle_request: poll_exit
+2021-10-20 01:04:21,960 DEBUG   SenderThread:94566 [sender.py:send_request():199] send_request: poll_exit
+2021-10-20 01:04:22,063 DEBUG   HandlerThread:94566 [handler.py:handle_request():126] handle_request: poll_exit
+2021-10-20 01:04:22,064 DEBUG   SenderThread:94566 [sender.py:send_request():199] send_request: poll_exit
+2021-10-20 01:04:22,172 DEBUG   HandlerThread:94566 [handler.py:handle_request():126] handle_request: poll_exit
+2021-10-20 01:04:22,173 DEBUG   SenderThread:94566 [sender.py:send_request():199] send_request: poll_exit
+2021-10-20 01:04:22,284 DEBUG   HandlerThread:94566 [handler.py:handle_request():126] handle_request: poll_exit
+2021-10-20 01:04:22,286 DEBUG   SenderThread:94566 [sender.py:send_request():199] send_request: poll_exit
+2021-10-20 01:04:22,394 DEBUG   HandlerThread:94566 [handler.py:handle_request():126] handle_request: poll_exit
+2021-10-20 01:04:22,395 DEBUG   SenderThread:94566 [sender.py:send_request():199] send_request: poll_exit
+2021-10-20 01:04:22,497 DEBUG   HandlerThread:94566 [handler.py:handle_request():126] handle_request: poll_exit
+2021-10-20 01:04:22,498 DEBUG   SenderThread:94566 [sender.py:send_request():199] send_request: poll_exit
+2021-10-20 01:04:22,604 DEBUG   HandlerThread:94566 [handler.py:handle_request():126] handle_request: poll_exit
+2021-10-20 01:04:22,605 DEBUG   SenderThread:94566 [sender.py:send_request():199] send_request: poll_exit
+2021-10-20 01:04:22,709 DEBUG   HandlerThread:94566 [handler.py:handle_request():126] handle_request: poll_exit
+2021-10-20 01:04:22,709 DEBUG   SenderThread:94566 [sender.py:send_request():199] send_request: poll_exit
+2021-10-20 01:04:22,815 DEBUG   HandlerThread:94566 [handler.py:handle_request():126] handle_request: poll_exit
+2021-10-20 01:04:22,815 DEBUG   SenderThread:94566 [sender.py:send_request():199] send_request: poll_exit
+2021-10-20 01:04:22,921 DEBUG   HandlerThread:94566 [handler.py:handle_request():126] handle_request: poll_exit
+2021-10-20 01:04:22,923 DEBUG   SenderThread:94566 [sender.py:send_request():199] send_request: poll_exit
+2021-10-20 01:04:23,033 DEBUG   HandlerThread:94566 [handler.py:handle_request():126] handle_request: poll_exit
+2021-10-20 01:04:23,034 DEBUG   SenderThread:94566 [sender.py:send_request():199] send_request: poll_exit
+2021-10-20 01:04:23,084 INFO    Thread-13 :94566 [upload_job.py:push():137] Uploaded file /Users/pluto7/Documents/mlops/nd0821-c2-build-model-workflow-exercises/lesson-2-data-exploration-and-preparation/exercises/exercise_4/starter/wandb/run-20211020_010408-227skfa8/files/output.log
+2021-10-20 01:04:23,106 INFO    Thread-12 :94566 [upload_job.py:push():137] Uploaded file /Users/pluto7/Documents/mlops/nd0821-c2-build-model-workflow-exercises/lesson-2-data-exploration-and-preparation/exercises/exercise_4/starter/wandb/run-20211020_010408-227skfa8/files/requirements.txt
+2021-10-20 01:04:23,106 INFO    Thread-14 :94566 [upload_job.py:push():137] Uploaded file /Users/pluto7/Documents/mlops/nd0821-c2-build-model-workflow-exercises/lesson-2-data-exploration-and-preparation/exercises/exercise_4/starter/wandb/run-20211020_010408-227skfa8/files/config.yaml
+2021-10-20 01:04:23,116 INFO    Thread-16 :94566 [upload_job.py:push():137] Uploaded file /Users/pluto7/Documents/mlops/nd0821-c2-build-model-workflow-exercises/lesson-2-data-exploration-and-preparation/exercises/exercise_4/starter/wandb/run-20211020_010408-227skfa8/files/conda-environment.yaml
+2021-10-20 01:04:23,137 DEBUG   HandlerThread:94566 [handler.py:handle_request():126] handle_request: poll_exit
+2021-10-20 01:04:23,138 DEBUG   SenderThread:94566 [sender.py:send_request():199] send_request: poll_exit
+2021-10-20 01:04:23,249 DEBUG   HandlerThread:94566 [handler.py:handle_request():126] handle_request: poll_exit
+2021-10-20 01:04:23,250 DEBUG   SenderThread:94566 [sender.py:send_request():199] send_request: poll_exit
+2021-10-20 01:04:23,355 DEBUG   HandlerThread:94566 [handler.py:handle_request():126] handle_request: poll_exit
+2021-10-20 01:04:23,355 DEBUG   SenderThread:94566 [sender.py:send_request():199] send_request: poll_exit
+2021-10-20 01:04:23,459 DEBUG   HandlerThread:94566 [handler.py:handle_request():126] handle_request: poll_exit
+2021-10-20 01:04:23,460 DEBUG   SenderThread:94566 [sender.py:send_request():199] send_request: poll_exit
+2021-10-20 01:04:23,566 DEBUG   HandlerThread:94566 [handler.py:handle_request():126] handle_request: poll_exit
+2021-10-20 01:04:23,567 DEBUG   SenderThread:94566 [sender.py:send_request():199] send_request: poll_exit
+2021-10-20 01:04:23,672 DEBUG   HandlerThread:94566 [handler.py:handle_request():126] handle_request: poll_exit
+2021-10-20 01:04:23,673 DEBUG   SenderThread:94566 [sender.py:send_request():199] send_request: poll_exit
+2021-10-20 01:04:23,776 DEBUG   HandlerThread:94566 [handler.py:handle_request():126] handle_request: poll_exit
+2021-10-20 01:04:23,777 DEBUG   SenderThread:94566 [sender.py:send_request():199] send_request: poll_exit
+2021-10-20 01:04:23,884 DEBUG   HandlerThread:94566 [handler.py:handle_request():126] handle_request: poll_exit
+2021-10-20 01:04:23,885 DEBUG   SenderThread:94566 [sender.py:send_request():199] send_request: poll_exit
+2021-10-20 01:04:23,990 DEBUG   HandlerThread:94566 [handler.py:handle_request():126] handle_request: poll_exit
+2021-10-20 01:04:23,990 DEBUG   SenderThread:94566 [sender.py:send_request():199] send_request: poll_exit
+2021-10-20 01:04:24,031 INFO    Thread-15 :94566 [upload_job.py:push():137] Uploaded file /Users/pluto7/Documents/mlops/nd0821-c2-build-model-workflow-exercises/lesson-2-data-exploration-and-preparation/exercises/exercise_4/starter/wandb/run-20211020_010408-227skfa8/files/wandb-summary.json
+2021-10-20 01:04:24,095 DEBUG   HandlerThread:94566 [handler.py:handle_request():126] handle_request: poll_exit
+2021-10-20 01:04:24,096 DEBUG   SenderThread:94566 [sender.py:send_request():199] send_request: poll_exit
+2021-10-20 01:04:24,198 DEBUG   HandlerThread:94566 [handler.py:handle_request():126] handle_request: poll_exit
+2021-10-20 01:04:24,199 DEBUG   SenderThread:94566 [sender.py:send_request():199] send_request: poll_exit
+2021-10-20 01:04:24,234 INFO    Thread-7  :94566 [sender.py:transition_state():319] send defer: 7
+2021-10-20 01:04:24,236 DEBUG   HandlerThread:94566 [handler.py:handle_request():126] handle_request: defer
+2021-10-20 01:04:24,236 INFO    HandlerThread:94566 [handler.py:handle_request_defer():143] handle defer: 7
+2021-10-20 01:04:24,236 DEBUG   SenderThread:94566 [sender.py:send_request():199] send_request: defer
+2021-10-20 01:04:24,236 INFO    SenderThread:94566 [sender.py:send_request_defer():315] handle sender defer: 7
+2021-10-20 01:04:24,304 DEBUG   HandlerThread:94566 [handler.py:handle_request():126] handle_request: poll_exit
+2021-10-20 01:04:24,571 INFO    SenderThread:94566 [sender.py:transition_state():319] send defer: 8
+2021-10-20 01:04:24,573 DEBUG   SenderThread:94566 [sender.py:send_request():199] send_request: poll_exit
+2021-10-20 01:04:24,576 DEBUG   HandlerThread:94566 [handler.py:handle_request():126] handle_request: defer
+2021-10-20 01:04:24,576 INFO    HandlerThread:94566 [handler.py:handle_request_defer():143] handle defer: 8
+2021-10-20 01:04:24,580 DEBUG   SenderThread:94566 [sender.py:send_request():199] send_request: defer
+2021-10-20 01:04:24,580 INFO    SenderThread:94566 [sender.py:send_request_defer():315] handle sender defer: 8
+2021-10-20 01:04:24,584 INFO    SenderThread:94566 [sender.py:transition_state():319] send defer: 9
+2021-10-20 01:04:24,591 DEBUG   SenderThread:94566 [sender.py:send():185] send: final
+2021-10-20 01:04:24,591 DEBUG   SenderThread:94566 [sender.py:send():185] send: footer
+2021-10-20 01:04:24,592 DEBUG   HandlerThread:94566 [handler.py:handle_request():126] handle_request: defer
+2021-10-20 01:04:24,592 INFO    HandlerThread:94566 [handler.py:handle_request_defer():143] handle defer: 9
+2021-10-20 01:04:24,593 DEBUG   SenderThread:94566 [sender.py:send_request():199] send_request: defer
+2021-10-20 01:04:24,594 INFO    SenderThread:94566 [sender.py:send_request_defer():315] handle sender defer: 9
+2021-10-20 01:04:24,683 DEBUG   HandlerThread:94566 [handler.py:handle_request():126] handle_request: poll_exit
+2021-10-20 01:04:24,683 DEBUG   SenderThread:94566 [sender.py:send_request():199] send_request: poll_exit
+2021-10-20 01:04:24,683 INFO    SenderThread:94566 [file_pusher.py:join():182] waiting for file pusher
+2021-10-20 01:04:25,402 DEBUG   HandlerThread:94566 [handler.py:handle_request():126] handle_request: get_summary
+2021-10-20 01:04:25,403 DEBUG   HandlerThread:94566 [handler.py:handle_request():126] handle_request: sampled_history
+2021-10-20 01:04:25,408 DEBUG   HandlerThread:94566 [handler.py:handle_request():126] handle_request: shutdown
+2021-10-20 01:04:25,409 INFO    HandlerThread:94566 [handler.py:finish():683] shutting down handler
+2021-10-20 01:04:25,596 INFO    WriterThread:94566 [datastore.py:close():281] close: /Users/pluto7/Documents/mlops/nd0821-c2-build-model-workflow-exercises/lesson-2-data-exploration-and-preparation/exercises/exercise_4/starter/wandb/run-20211020_010408-227skfa8/run-227skfa8.wandb
+2021-10-20 01:04:26,404 INFO    SenderThread:94566 [sender.py:finish():986] shutting down sender
+2021-10-20 01:04:26,404 INFO    SenderThread:94566 [file_pusher.py:finish():177] shutting down file pusher
+2021-10-20 01:04:26,405 INFO    SenderThread:94566 [file_pusher.py:join():182] waiting for file pusher
+2021-10-20 01:04:26,414 INFO    MainThread:94566 [internal.py:handle_exit():76] Internal process exited

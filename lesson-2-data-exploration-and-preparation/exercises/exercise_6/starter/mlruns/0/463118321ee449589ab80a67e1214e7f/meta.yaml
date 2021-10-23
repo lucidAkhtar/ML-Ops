@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/pluto7/Documents/mlops/nd0821-c2-build-model-workflow-exercises/lesson-2-data-exploration-and-preparation/exercises/exercise_6/starter/mlruns/0/463118321ee449589ab80a67e1214e7f/artifacts
+end_time: 1634929545483
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+name: ''
+run_id: 463118321ee449589ab80a67e1214e7f
+run_uuid: 463118321ee449589ab80a67e1214e7f
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1634929499860
+status: 3
+tags: []
+user_id: pluto7

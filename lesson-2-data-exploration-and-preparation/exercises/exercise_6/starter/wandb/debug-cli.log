@@ -1,0 +1,64 @@
+2021-10-23 00:30:54 ERROR Traceback (most recent call last):
+  File "/Users/pluto7/opt/miniconda3/envs/udacity/lib/python3.8/site-packages/wandb/apis/normalize.py", line 24, in wrapper
+    return func(*args, **kwargs)
+  File "/Users/pluto7/opt/miniconda3/envs/udacity/lib/python3.8/site-packages/wandb/apis/public.py", line 721, in artifact
+    artifact = Artifact(self.client, entity, project, artifact_name)
+  File "/Users/pluto7/opt/miniconda3/envs/udacity/lib/python3.8/site-packages/wandb/apis/public.py", line 3347, in __init__
+    self._load()
+  File "/Users/pluto7/opt/miniconda3/envs/udacity/lib/python3.8/site-packages/wandb/apis/public.py", line 3833, in _load
+    raise ValueError(
+ValueError: Project lucidakhtar/exercise_5 does not contain artifact: "pre_processed_data.csv:latest"
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/pluto7/opt/miniconda3/envs/udacity/lib/python3.8/site-packages/wandb/cli/cli.py", line 85, in wrapper
+    return func(*args, **kwargs)
+  File "/Users/pluto7/opt/miniconda3/envs/udacity/lib/python3.8/site-packages/wandb/cli/cli.py", line 1526, in get
+    artifact = public_api.artifact(full_path, type=type)
+  File "/Users/pluto7/opt/miniconda3/envs/udacity/lib/python3.8/site-packages/wandb/apis/normalize.py", line 62, in wrapper
+    six.reraise(CommError, CommError(message, err), sys.exc_info()[2])
+  File "/Users/pluto7/opt/miniconda3/envs/udacity/lib/python3.8/site-packages/six.py", line 718, in reraise
+    raise value.with_traceback(tb)
+  File "/Users/pluto7/opt/miniconda3/envs/udacity/lib/python3.8/site-packages/wandb/apis/normalize.py", line 24, in wrapper
+    return func(*args, **kwargs)
+  File "/Users/pluto7/opt/miniconda3/envs/udacity/lib/python3.8/site-packages/wandb/apis/public.py", line 721, in artifact
+    artifact = Artifact(self.client, entity, project, artifact_name)
+  File "/Users/pluto7/opt/miniconda3/envs/udacity/lib/python3.8/site-packages/wandb/apis/public.py", line 3347, in __init__
+    self._load()
+  File "/Users/pluto7/opt/miniconda3/envs/udacity/lib/python3.8/site-packages/wandb/apis/public.py", line 3833, in _load
+    raise ValueError(
+wandb.errors.CommError: Project lucidakhtar/exercise_5 does not contain artifact: "pre_processed_data.csv:latest"
+
+2021-10-23 00:31:25 ERROR Traceback (most recent call last):
+  File "/Users/pluto7/opt/miniconda3/envs/udacity/lib/python3.8/site-packages/wandb/apis/normalize.py", line 24, in wrapper
+    return func(*args, **kwargs)
+  File "/Users/pluto7/opt/miniconda3/envs/udacity/lib/python3.8/site-packages/wandb/apis/public.py", line 721, in artifact
+    artifact = Artifact(self.client, entity, project, artifact_name)
+  File "/Users/pluto7/opt/miniconda3/envs/udacity/lib/python3.8/site-packages/wandb/apis/public.py", line 3347, in __init__
+    self._load()
+  File "/Users/pluto7/opt/miniconda3/envs/udacity/lib/python3.8/site-packages/wandb/apis/public.py", line 3833, in _load
+    raise ValueError(
+ValueError: Project lucidakhtar/exercise_5 does not contain artifact: "preprocessed_data.csv:latest"
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/pluto7/opt/miniconda3/envs/udacity/lib/python3.8/site-packages/wandb/cli/cli.py", line 85, in wrapper
+    return func(*args, **kwargs)
+  File "/Users/pluto7/opt/miniconda3/envs/udacity/lib/python3.8/site-packages/wandb/cli/cli.py", line 1526, in get
+    artifact = public_api.artifact(full_path, type=type)
+  File "/Users/pluto7/opt/miniconda3/envs/udacity/lib/python3.8/site-packages/wandb/apis/normalize.py", line 62, in wrapper
+    six.reraise(CommError, CommError(message, err), sys.exc_info()[2])
+  File "/Users/pluto7/opt/miniconda3/envs/udacity/lib/python3.8/site-packages/six.py", line 718, in reraise
+    raise value.with_traceback(tb)
+  File "/Users/pluto7/opt/miniconda3/envs/udacity/lib/python3.8/site-packages/wandb/apis/normalize.py", line 24, in wrapper
+    return func(*args, **kwargs)
+  File "/Users/pluto7/opt/miniconda3/envs/udacity/lib/python3.8/site-packages/wandb/apis/public.py", line 721, in artifact
+    artifact = Artifact(self.client, entity, project, artifact_name)
+  File "/Users/pluto7/opt/miniconda3/envs/udacity/lib/python3.8/site-packages/wandb/apis/public.py", line 3347, in __init__
+    self._load()
+  File "/Users/pluto7/opt/miniconda3/envs/udacity/lib/python3.8/site-packages/wandb/apis/public.py", line 3833, in _load
+    raise ValueError(
+wandb.errors.CommError: Project lucidakhtar/exercise_5 does not contain artifact: "preprocessed_data.csv:latest"
+

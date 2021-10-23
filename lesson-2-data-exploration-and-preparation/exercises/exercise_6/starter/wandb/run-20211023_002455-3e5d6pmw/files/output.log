@@ -1,0 +1,33 @@
+2021-10-23 00:25:00,576 Downloading and reading artifact
+[34m[1mwandb[39m[22m: [32m[41mERROR[39m[49m Project lucidakhtar/exercise_5 does not contain artifact: "preprocessed_data.csv:latest"
+Traceback (most recent call last):
+  File "/Users/pluto7/opt/miniconda3/envs/mlflow-8e19175fcb4bf43f10c0ae02df9ad950ef7f6c2a/lib/python3.9/site-packages/wandb/apis/normalize.py", line 24, in wrapper
+    return func(*args, **kwargs)
+  File "/Users/pluto7/opt/miniconda3/envs/mlflow-8e19175fcb4bf43f10c0ae02df9ad950ef7f6c2a/lib/python3.9/site-packages/wandb/apis/public.py", line 565, in artifact
+    artifact = Artifact(self.client, entity, project, artifact_name)
+  File "/Users/pluto7/opt/miniconda3/envs/mlflow-8e19175fcb4bf43f10c0ae02df9ad950ef7f6c2a/lib/python3.9/site-packages/wandb/apis/public.py", line 2824, in __init__
+    self._load()
+  File "/Users/pluto7/opt/miniconda3/envs/mlflow-8e19175fcb4bf43f10c0ae02df9ad950ef7f6c2a/lib/python3.9/site-packages/wandb/apis/public.py", line 3310, in _load
+    raise ValueError(
+ValueError: Project lucidakhtar/exercise_5 does not contain artifact: "preprocessed_data.csv:latest"
+During handling of the above exception, another exception occurred:
+Traceback (most recent call last):
+  File "/Users/pluto7/Documents/mlops/nd0821-c2-build-model-workflow-exercises/lesson-2-data-exploration-and-preparation/exercises/exercise_6/starter/run.py", line 125, in <module>
+    go(args)
+  File "/Users/pluto7/Documents/mlops/nd0821-c2-build-model-workflow-exercises/lesson-2-data-exploration-and-preparation/exercises/exercise_6/starter/run.py", line 21, in go
+    artifact = run.use_artifact(args.input_artifact)
+  File "/Users/pluto7/opt/miniconda3/envs/mlflow-8e19175fcb4bf43f10c0ae02df9ad950ef7f6c2a/lib/python3.9/site-packages/wandb/sdk/wandb_run.py", line 2088, in use_artifact
+    artifact = public_api.artifact(type=type, name=name)
+  File "/Users/pluto7/opt/miniconda3/envs/mlflow-8e19175fcb4bf43f10c0ae02df9ad950ef7f6c2a/lib/python3.9/site-packages/wandb/apis/normalize.py", line 62, in wrapper
+    six.reraise(CommError, CommError(message, err), sys.exc_info()[2])
+  File "/Users/pluto7/opt/miniconda3/envs/mlflow-8e19175fcb4bf43f10c0ae02df9ad950ef7f6c2a/lib/python3.9/site-packages/six.py", line 718, in reraise
+    raise value.with_traceback(tb)
+  File "/Users/pluto7/opt/miniconda3/envs/mlflow-8e19175fcb4bf43f10c0ae02df9ad950ef7f6c2a/lib/python3.9/site-packages/wandb/apis/normalize.py", line 24, in wrapper
+    return func(*args, **kwargs)
+  File "/Users/pluto7/opt/miniconda3/envs/mlflow-8e19175fcb4bf43f10c0ae02df9ad950ef7f6c2a/lib/python3.9/site-packages/wandb/apis/public.py", line 565, in artifact
+    artifact = Artifact(self.client, entity, project, artifact_name)
+  File "/Users/pluto7/opt/miniconda3/envs/mlflow-8e19175fcb4bf43f10c0ae02df9ad950ef7f6c2a/lib/python3.9/site-packages/wandb/apis/public.py", line 2824, in __init__
+    self._load()
+  File "/Users/pluto7/opt/miniconda3/envs/mlflow-8e19175fcb4bf43f10c0ae02df9ad950ef7f6c2a/lib/python3.9/site-packages/wandb/apis/public.py", line 3310, in _load
+    raise ValueError(
+wandb.errors.CommError: Project lucidakhtar/exercise_5 does not contain artifact: "preprocessed_data.csv:latest"

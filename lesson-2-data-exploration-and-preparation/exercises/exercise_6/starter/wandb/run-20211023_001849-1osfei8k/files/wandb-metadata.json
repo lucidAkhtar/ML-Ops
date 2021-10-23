@@ -1,0 +1,35 @@
+{
+    "os": "macOS-11.4-x86_64-i386-64bit",
+    "python": "3.9.7",
+    "heartbeatAt": "2021-10-22T18:48:52.644939",
+    "startedAt": "2021-10-22T18:48:49.905456",
+    "docker": null,
+    "cpu_count": 4,
+    "cuda": null,
+    "args": [
+        "--input_artifact",
+        "exercise_5/pre_processed_data.csv:latest",
+        "--artifact_root",
+        "data",
+        "--artifact_type",
+        "raw_data",
+        "--test_size",
+        "0.3",
+        "--random_state",
+        "42",
+        "--stratify",
+        "genre"
+    ],
+    "state": "running",
+    "program": "/Users/pluto7/Documents/mlops/nd0821-c2-build-model-workflow-exercises/lesson-2-data-exploration-and-preparation/exercises/exercise_6/starter/run.py",
+    "codePath": "lesson-2-data-exploration-and-preparation/exercises/exercise_6/starter/run.py",
+    "git": {
+        "remote": "https://github.com/udacity/nd0821-c2-build-model-workflow-exercises.git",
+        "commit": "d17fd61434715a00a5b29bdde55fd75b04941b54"
+    },
+    "email": null,
+    "root": "/Users/pluto7/Documents/mlops/nd0821-c2-build-model-workflow-exercises",
+    "host": "Akhtars-MacBook-Air.local",
+    "username": "pluto7",
+    "executable": "/Users/pluto7/opt/miniconda3/envs/mlflow-8e19175fcb4bf43f10c0ae02df9ad950ef7f6c2a/bin/python3"
+}

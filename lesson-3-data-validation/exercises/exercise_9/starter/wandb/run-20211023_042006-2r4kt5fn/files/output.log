@@ -1,0 +1,7 @@
+[1m========================================== test session starts ===========================================
+platform darwin -- Python 3.9.7, pytest-6.2.2, py-1.10.0, pluggy-0.13.1 -- /Users/pluto7/opt/miniconda3/envs/mlflow-0f4605a7f82725b3f21c1b32e06b5b072ad2a93b/bin/python
+cachedir: .pytest_cache
+rootdir: /Users/pluto7/Documents/mlops/nd0821-c2-build-model-workflow-exercises/lesson-3-data-validation/exercises/exercise_9/starter
+[1mcollected 1 item                                                                                         
+test_data.py::test_kolmogorov_smirnov [32mPASSED
+[32m=========================================== [1m1 passed[22m in 6.50s ============================================

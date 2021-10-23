@@ -1,0 +1,4 @@
+[31mERROR: usage: pytest [options] [file_or_dir] [file_or_dir] [...]
+[31mpytest: error: unrecognized arguments: --ks_alpha 0.05
+[31m  inifile: None
+[31m  rootdir: /Users/pluto7/Documents/mlops/nd0821-c2-build-model-workflow-exercises/lesson-3-data-validation/exercises/exercise_9/starter

@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/pluto7/Documents/mlops/nd0821-c2-build-model-workflow-exercises/lesson-3-data-validation/exercises/exercise_9/starter/mlruns/0/5ed3f70303934093ab17efd52f5ac832/artifacts
+end_time: 1634942275011
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+name: ''
+run_id: 5ed3f70303934093ab17efd52f5ac832
+run_uuid: 5ed3f70303934093ab17efd52f5ac832
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1634942149241
+status: 4
+tags: []
+user_id: pluto7

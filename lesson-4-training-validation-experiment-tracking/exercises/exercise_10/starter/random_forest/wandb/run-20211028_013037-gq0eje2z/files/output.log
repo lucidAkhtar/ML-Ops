@@ -1,0 +1,21 @@
+
+2021-10-28 01:30:43,466 Downloading and reading train artifact
+2021-10-28 01:30:46,096 Extracting target from dataframe
+2021-10-28 01:30:46,103 Splitting train/val
+2021-10-28 01:30:46,147 Setting up pipeline
+Traceback (most recent call last):
+  File "run.py", line 220, in <module>
+    go(args)
+  File "run.py", line 46, in go
+    pipe = get_inference_pipeline(args)
+  File "run.py", line 191, in get_inference_pipeline
+    pipe = Pipeline(steps=[("preprocessor",preprocessor),
+  File "/Users/pluto7/opt/miniconda3/envs/mlflow-2cc0bcb56e83d3ef8170e35672ad36e03ca95e3d/lib/python3.8/site-packages/sklearn/utils/validation.py", line 63, in inner_f
+    return f(*args, **kwargs)
+  File "/Users/pluto7/opt/miniconda3/envs/mlflow-2cc0bcb56e83d3ef8170e35672ad36e03ca95e3d/lib/python3.8/site-packages/sklearn/pipeline.py", line 118, in __init__
+    self._validate_steps()
+  File "/Users/pluto7/opt/miniconda3/envs/mlflow-2cc0bcb56e83d3ef8170e35672ad36e03ca95e3d/lib/python3.8/site-packages/sklearn/pipeline.py", line 154, in _validate_steps
+    names, estimators = zip(*self.steps)
+  File "/Users/pluto7/opt/miniconda3/envs/mlflow-2cc0bcb56e83d3ef8170e35672ad36e03ca95e3d/lib/python3.8/site-packages/sklearn/ensemble/_base.py", line 172, in __iter__
+    return iter(self.estimators_)
+AttributeError: 'RandomForestClassifier' object has no attribute 'estimators_'

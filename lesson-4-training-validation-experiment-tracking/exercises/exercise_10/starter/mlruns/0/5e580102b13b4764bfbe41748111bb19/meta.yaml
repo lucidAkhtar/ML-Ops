@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/pluto7/Documents/mlops/nd0821-c2-build-model-workflow-exercises/lesson-4-training-validation-experiment-tracking/exercises/exercise_10/starter/mlruns/0/5e580102b13b4764bfbe41748111bb19/artifacts
+end_time: 1635364857795
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+name: ''
+run_id: 5e580102b13b4764bfbe41748111bb19
+run_uuid: 5e580102b13b4764bfbe41748111bb19
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1635364823414
+status: 4
+tags: []
+user_id: pluto7

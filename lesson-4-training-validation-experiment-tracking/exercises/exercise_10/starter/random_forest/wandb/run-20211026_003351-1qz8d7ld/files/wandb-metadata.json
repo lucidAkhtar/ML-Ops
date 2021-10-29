@@ -1,0 +1,27 @@
+{
+    "os": "macOS-10.16-x86_64-i386-64bit",
+    "python": "3.8.12",
+    "heartbeatAt": "2021-10-25T19:03:55.801451",
+    "startedAt": "2021-10-25T19:03:51.732827",
+    "docker": null,
+    "cpu_count": 4,
+    "cuda": null,
+    "args": [
+        "--train_data",
+        "exercise_6/data_train.csv:latest",
+        "--model_config",
+        "/Users/pluto7/Documents/mlops/nd0821-c2-build-model-workflow-exercises/lesson-4-training-validation-experiment-tracking/exercises/exercise_10/starter/outputs/2021-10-26/00-30-50/random_forest_config.json"
+    ],
+    "state": "running",
+    "program": "run.py",
+    "codePath": "lesson-4-training-validation-experiment-tracking/exercises/exercise_10/starter/random_forest/run.py",
+    "git": {
+        "remote": "https://github.com/udacity/nd0821-c2-build-model-workflow-exercises.git",
+        "commit": "d17fd61434715a00a5b29bdde55fd75b04941b54"
+    },
+    "email": null,
+    "root": "/Users/pluto7/Documents/mlops/nd0821-c2-build-model-workflow-exercises",
+    "host": "Akhtars-MacBook-Air.local",
+    "username": "pluto7",
+    "executable": "/Users/pluto7/opt/miniconda3/envs/mlflow-2cc0bcb56e83d3ef8170e35672ad36e03ca95e3d/bin/python"
+}
